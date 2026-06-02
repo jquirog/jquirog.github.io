@@ -24,8 +24,9 @@ cv:
         end_date: Dec 26
         score: "GPA 4.0/4.0"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Graduate Researcher for the Cyber Physical Systems Laboratory
+          - Awarded in entrepreneurship pitch elevator competitions
+          - GPA 4.0/4.0
 
       - institution: University of California Santa Cruz
         location: Santa Cruz, California
@@ -36,19 +37,22 @@ cv:
         end_date: June 25
         score: "GPA 3.83/4.0 (Cum Laude)"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Member of the USCS Formula SAE Tractive System team
+          - GPA 3.83/4.0 (Cum Laude)
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: Real Robotics
+        position: Founder
+        location: East Lansing, MI
+        start_date: Dec 25
+        end_date: Present
+        summary: 
+        - Designed and simulated autonomous drone systems for search-and-rescue missions in support of first responders 
+        - Performed market and feasibility analyses to evaluate business viability and develop investor-facing reports and pitch materials 
+        - Won elevator pitch competitions, and secured funding to advance startup development  
+        #highlights:
+        #  - Relativity
+        #  - Description 2.
 
       - company: California Institute of Technology
         position: Visiting Professor
@@ -77,40 +81,33 @@ cv:
         start_date: 1909
         end_date: 1911
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
     Awards:
       - title: Entrepreneurship launch program
         authors:
           - "Burguess Institute of Entrepreneurship"
         date: 2026
+        awarder: Burguess Institute of Entrepreneurship
         summary: Recognized and entered into the exclusive Launch program of BIE for and to continue developing a startup recognized in competitions and raised funds. 
 
       - title: Engineering Graduate Leadership Fellowship 
         authors:
           - "Michigan State College of Engineering"
         date: 2025
+        awarder: Michigan State College of Engineering
         summary: Recognized for exceptional academic, leadership achievements, and delivering engineering outreach talks 
 
       - title: UCSC Cum Laude & ECE maximum department honors 
         authors:
           - "UCSC and ECE department"
         date: 2025
+        awarder: UCSC and ECE department
         summary: Recognized for outstanding academic performance in Robotics Engineering and Electrical Engineering, graduating Cum Laude and receiving the highest departmental honors for excellence in engineering coursework, and technical achievement. 
 
       - title: Engineering Honor Society (Tau Beta Pi) 
         authors:
           - "Tau Beta Pi Academic Fraternity"
         date: 2023
+        awarder: Tau Beta Pi institution 
         summary: Recognized for exceptional academic achievement and leadership in engineering, ranking in the top 5% of my class 
 
     #Publications:
