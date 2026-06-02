@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. email: quirogagalan@gmail.com | LinkedIn: julioquirogagalan
+subtitle: "email: quirogagalan@gmail.com | LinkedIn: julioquirogagalan"
 
 profile:
   align: right
