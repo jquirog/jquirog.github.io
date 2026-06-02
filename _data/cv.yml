@@ -4,8 +4,7 @@ cv:
   email: quirogagalan@gmail.com
   location: East Lansing, MI
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  summary: Robotics engineer developing autonomous, embedded, and multi-robot systems for real-world applications.
   #social_networks:
   #  - network: X
   #    username: AlbertEinstein
@@ -17,24 +16,24 @@ cv:
   sections:
     Education:
       - institution: Michigan State University
-        location: East Lansing, Michigan, USA
+        location: East Lansing, Michigan
         url: https://engineering.msu.edu/departments/ece
         area: Electrical & Computer Engineering
         studyType: Masters of Science
-        start_date: Aug 2025
-        end_date: Dec 2026
+        start_date: Aug 25
+        end_date: Dec 26
         score: "GPA 4.0/4.0"
         highlights:
           - Description 1.
           - Description 2.
 
       - institution: University of California Santa Cruz
-        location: Santa Cruz, California, USA
+        location: Santa Cruz, California
         url: https://engineering.ucsc.edu/departments/electrical-and-computer-engineering/
         area: Robotics Engineering
         studyType: Bachelors of Science
-        start_date: Sep 2022
-        end_date: June 2025
+        start_date: Sep 22
+        end_date: June 25
         score: "GPA 3.83/4.0 (Cum Laude)"
         highlights:
           - Description 1.
