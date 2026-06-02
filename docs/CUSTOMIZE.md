@@ -507,7 +507,7 @@ To create a new collection, follow these steps. We will create a `courses` colle
    Update [\_pages/dropdown.md](../_pages/dropdown.md) or the navigation configuration of your page. In the frontmatter of your collection landing page (e.g., `_pages/courses.md`), add:
 
    ```yaml
-   nav: true
+   nav: false
    nav_order: 5
    ```
 
