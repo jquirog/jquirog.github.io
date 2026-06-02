@@ -7,7 +7,4 @@ email: quirogagalan@gmail.com # your email address
 #rss_icon: true # comment this line to hide the RSS icon
 #scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social:
-  logo:/assets/img/linkedin.png
-  title: LinkedIn
-  url: https://www.linkedin.com/in/julioquirogagalan/
+linkedin_username: julioquirogagalan
