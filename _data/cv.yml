@@ -46,22 +46,24 @@ cv:
         location: East Lansing, MI
         start_date: Dec 25
         end_date: Present
-        summary: 
+      #  summary: 
+      #  - Designed and simulated autonomous drone systems for search-and-rescue missions in support of first responders 
+      #  - Performed market and feasibility analyses to evaluate business viability and develop investor-facing reports and pitch materials 
+      #  - Won elevator pitch competitions, and secured funding to advance startup development  
+        highlights:
         - Designed and simulated autonomous drone systems for search-and-rescue missions in support of first responders 
         - Performed market and feasibility analyses to evaluate business viability and develop investor-facing reports and pitch materials 
         - Won elevator pitch competitions, and secured funding to advance startup development  
-        #highlights:
-        #  - Relativity
-        #  - Description 2.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Cyber Physical System Lab
+        position: Graduate Researcher
+        location: East Lansing, MI
+        start_date: Sep 25
+        end_date: Present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Guided Multi Agent Reinforcement Learning to improve collaboration, control efficiency, to achieve high level goals. 
+          - Designing and analyzing optimal & nonlinear control policies (LQR/LQG, MPC, Lyapunov-based) to ensure stability, safety, and performance. 
+          - Building Python DNN pipelines that turn LLM outputs into verifiable controllers, with on-robot execution and closed-loop telemetry
 
       - company: Kaiser Wilhelm Institute for Physics
         position: Director
