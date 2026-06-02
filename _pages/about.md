@@ -27,7 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+ I am a Robotics Engineering graduate and M.S. Electrical & Computer Engineering student at Michigan State University, focused on control systems, embedded systems, and autonomous robotics. My work spans LLM-guided multi-agent reinforcement learning, drone systems for search-and-rescue, PCB design, Deep Neural Networks, and real-time embedded communication. I am passionate about building intelligent robotic systems that connect research, engineering, and entrepreneurship to solve real-world problems.
+
+You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
