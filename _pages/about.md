@@ -32,5 +32,3 @@ latest_posts:
 ---
 
  I am a Robotics Engineering graduate and M.S. Electrical & Computer Engineering student at Michigan State University, focused on control systems, embedded systems, and autonomous robotics. My work spans LLM-guided multi-agent reinforcement learning, drone systems for search-and-rescue, PCB design, Deep Neural Networks, and real-time embedded communication. I am passionate about building intelligent robotic systems that connect research, engineering, and entrepreneurship to solve real-world problems.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
