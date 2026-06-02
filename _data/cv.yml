@@ -65,23 +65,42 @@ cv:
           - Designing and analyzing optimal & nonlinear control policies (LQR/LQG, MPC, Lyapunov-based) to ensure stability, safety, and performance. 
           - Building Python DNN pipelines that turn LLM outputs into verifiable controllers, with on-robot execution and closed-loop telemetry
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Ikergune
+        position: R&D Engineer
+        location: San Sebastian, Spain
+        start_date: June 25
+        end_date: Aug 25
+        highlights:
+          - Integrated industrial PLCs with IO-Link sensors and actuators over PROFINET for real-time control and data acquisition. 
+          - Built and customized Linux OS images with the Yocto Project (kernel features, device trees, layers) for robotics hardware optimization. 
+          - Programmed and debugged embedded System communication protocols (SPI, UART, I2C, CAN) for automated systems. 
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: SYLVAE
+        position: Sensor development & integration Engineer
+        location: Santa Cruz, CA
+        start_date: Sep 24
+        end_date: Jun 25
+        highlights:
+          - Led LiDAR and temperature sensing for a ground wildfire-risk mitigation platform on ESP32/Linux. 
+          - Designed and tested PCBs (Cadence Allegro), state machines for feedback response, and C/C++ data acquisition. 
+          - Analyzed point clouds in CloudCompare and produced calibrated field measurements. 
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: Human Aware Robotics Exploration Laboratory
+        position: Undergraduate Researcher
+        location: Santa Cruz, CA
+        start_date: Jun 24
+        end_date: Sep 24
+        highlights: 
+          - Prototyped a 4+1 VTOL drone for humanitarian missions. 
+          - Ran simulations in ArduPilot and developed multi-sensor perception for resource and survivor detection. 
+    
+      - company: Baskin Engineering
+        position: logic Design Reader
+        location: Santa Cruz, CA
+        start_date: Sep 23
+        end_date: Jan 24
+        highlights: 
+          - Supported course delivery (exams/homework) in digital circuits, Boolean algebra, and FPGA fundamentals.
 
     Awards:
       - title: Entrepreneurship launch program
@@ -157,17 +176,6 @@ cv:
       - name: Physics
         icon: fa-solid fa-tag
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Degrees:
-      - name: Electrical & Computer Engineering
-        date: 2026-12-11
-        issuer: Stanford University
-        icon: fa-solid fa-tag #fa-location-dot
-
-      - name: Robotics Engineering
-        date: 2025-06-12
-        issuer: University of California Santa Cruz
-        icon: fa-solid fa-tag
 
 #    Projects:
 #      - name: Quantum Computing
