@@ -5,13 +5,7 @@ cv:
   location: East Lansing, MI
   image: ""
   summary: Robotics engineer developing autonomous, embedded, and multi-robot systems for real-world applications.
-  #social_networks:
-  #  - network: X
-  #    username: AlbertEinstein
-  #  - network: GitHub
-  #    username: example
-  #  - network: LinkedIn
-  #    username: example
+
 
   sections:
     Education:
