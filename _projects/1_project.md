@@ -25,7 +25,7 @@ The inverted pendulum is one of the classic problems in control systems because 
 
 ## Project Overview
 
-This project began with the physical modeling of a cart-pendulum system. I derived the equations of motion using energy methods and Lagrange’s equations, starting from the cart position, pendulum angle, rod length, cart mass, pendulum mass, and gravity. From there, I linearized the nonlinear dynamics around the upright equilibrium so the system could be represented in state-space form and used for controller design. My handwritten derivation included the kinematic constraints, kinetic and potential energy expressions, Lagrangian formulation, equations of motion, linearization, and conversion into a state-space model. :contentReference[oaicite:0]{index=0}
+This project began with the physical modeling of a cart-pendulum system. I derived the equations of motion using energy methods and Lagrange’s equations, starting from the cart position, pendulum angle, rod length, cart mass, pendulum mass, and gravity. From there, I linearized the nonlinear dynamics around the upright equilibrium so the system could be represented in state-space form and used for controller design. My handwritten derivation included the kinematic constraints, kinetic and potential energy expressions, Lagrangian formulation, equations of motion, linearization, and conversion into a state-space model.
 
 The physical system was built as a cart with an upright pendulum attached to it. The final system combined mechanical design, sensor feedback, motor actuation, embedded programming, and control theory.
 
@@ -43,13 +43,13 @@ The physical system was built as a cart with an upright pendulum attached to it.
 
 After defining the system geometry, I modeled the motion of the pendulum mass relative to the moving cart. This involved expressing the pendulum mass position, differentiating it with respect to time, and using those results to compute kinetic and potential energy. With the Lagrangian approach, I obtained the coupled equations that describe how the cart motion and pendulum angle influence each other.
 
-The nonlinear equations were then linearized around the upright position using small-angle assumptions. This allowed the system to be written in a state-space form suitable for modern control design. The final state-space model included the pendulum angle, angular motion, cart position, and cart velocity. The model also incorporated the actuator dynamics of the DC motor, including how input voltage produces force on the cart. :contentReference[oaicite:1]{index=1}
+The nonlinear equations were then linearized around the upright position using small-angle assumptions. This allowed the system to be written in a state-space form suitable for modern control design. The final state-space model included the pendulum angle, angular motion, cart position, and cart velocity. The model also incorporated the actuator dynamics of the DC motor, including how input voltage produces force on the cart.
 
 ## Control Design and Simulation
 
-Once the state-space model was derived, I implemented the system in MATLAB to analyze controllability, convert the continuous-time model into a discrete-time model, and design a digital controller. The system was discretized with a sampling time of 0.05 seconds, corresponding to a 20 Hz control loop. :contentReference[oaicite:2]{index=2}
+Once the state-space model was derived, I implemented the system in MATLAB to analyze controllability, convert the continuous-time model into a discrete-time model, and design a digital controller. The system was discretized with a sampling time of 0.05 seconds, corresponding to a 20 Hz control loop.
 
-I used an LQR-based control approach to place the closed-loop behavior in a stable and practical region. The controller was tested under different initial pendulum angles to evaluate how quickly the system could recover and how much control effort was required. The MATLAB simulations included root locus analysis, frequency-domain checks, closed-loop state response, control effort plots, and animated visualizations of the pendulum motion. :contentReference[oaicite:3]{index=3}
+I used an LQR-based control approach to place the closed-loop behavior in a stable and practical region. The controller was tested under different initial pendulum angles to evaluate how quickly the system could recover and how much control effort was required. The MATLAB simulations included root locus analysis, frequency-domain checks, closed-loop state response, control effort plots, and animated visualizations of the pendulum motion.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
