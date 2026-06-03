@@ -31,4 +31,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts.
 ---
 
- I am a Robotics Engineering graduate and M.S. Electrical & Computer Engineering student at Michigan State University, focused on control systems, embedded systems, and autonomous robotics. My work spans LLM-guided multi-agent reinforcement learning, drone systems for search-and-rescue, PCB design, Deep Neural Networks, and real-time embedded communication. I am passionate about building intelligent robotic systems that connect research, engineering, and entrepreneurship to solve real-world problems.
+I am a Robotics Engineering graduate and M.S. Electrical & Computer Engineering student at Michigan State University, passionate about robotics, innovation, and solving real-world problems through engineering. My academic and professional journey has allowed me to work across different fields, environments, and countries, from university research labs in the United States to R&D engineering work in Spain. Through these experiences, I have developed a strong interest in autonomous systems, embedded technologies, control systems, and intelligent robotics.
+
+Beyond engineering, I am also interested in entrepreneurship and the process of turning technical ideas into practical solutions. As the founder of Real Robotics, I am exploring how autonomous drone systems can support first responders in search-and-rescue and emergency response missions. I enjoy working at the intersection of research, technology, and business, where ideas can grow from early concepts into meaningful products.
