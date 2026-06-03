@@ -2,7 +2,7 @@
 layout: page
 title: Inverted Pendulum
 description: Modeling, simulation, control design, and embedded implementation of a self-balancing cart-pendulum system
-img: assets/img/Project1/FreeBodyDiagramPenguin.png
+img: assets/img/Project1/FreeBodyDiagram.png
 importance: 1
 category: work
 related_publications: false
@@ -27,7 +27,7 @@ The inverted pendulum is one of the classic problems in control systems because 
 
 This project began with the physical modeling of a cart-pendulum system. I derived the equations of motion using energy methods and Lagrange’s equations, starting from the cart position, pendulum angle, rod length, cart mass, pendulum mass, and gravity. From there, I linearized the nonlinear dynamics around the upright equilibrium so the system could be represented in state-space form and used for controller design. My handwritten derivation included the kinematic constraints, kinetic and potential energy expressions, Lagrangian formulation, equations of motion, linearization, and conversion into a state-space model. :contentReference[oaicite:0]{index=0}
 
-The physical system was built as a cart with an upright pendulum attached to it. Instead of a traditional pendulum mass, our prototype used a small penguin figure at the top, which made the system more visually recognizable while preserving the same control challenge. The final system combined mechanical design, sensor feedback, motor actuation, embedded programming, and control theory.
+The physical system was built as a cart with an upright pendulum attached to it. The final system combined mechanical design, sensor feedback, motor actuation, embedded programming, and control theory.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
@@ -56,7 +56,7 @@ I used an LQR-based control approach to place the closed-loop behavior in a stab
     {% include figure.liquid loading="eager" path="assets/img/Project1/ResponseFullState.png" title="Full-state feedback response" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/Project1/ResponsEstimator.png" title="Estimator response" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project1/ResponseEstimator.png" title="Estimator response" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
