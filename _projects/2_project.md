@@ -2,7 +2,7 @@
 layout: page
 title: Sensor Development
 description: Signal conditioning, filtering, and digital sensor interfaces for an autonomous mechatronics robot
-img: assets/img/project2/BeaconDet.jpg
+img: assets/img/project2/allsensors.png
 importance: 2
 category: work
 related_publications: false
@@ -14,7 +14,7 @@ The goal was to transform weak, noisy, or analog physical signals into reliable 
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/project2/BeaconDet.jpg" title="Beacon detector testing" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/project2/BeaconDet.png" title="Beacon detector testing" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/project2/BeaconDet1ft.png" title="Close-distance beacon testing" class="img-fluid rounded z-depth-1" %}
@@ -66,7 +66,7 @@ This circuit was important because it allowed the robot to transition from gener
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/project2/TrackWireDEt.jpg" title="Track wire detector circuit" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/project2/TrackWireDEt.png" title="Track wire detector circuit" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -84,7 +84,7 @@ This sensor was simple compared to the beacon and track wire circuits, but it wa
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/project2/blktapeSensor.jpg" title="Black tape sensor" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/project2/blktapeSensor.png" title="Black tape sensor" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -102,7 +102,7 @@ The bumper sensors were a good example of how simple hardware can become powerfu
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/project2/BumperSensCKT.jpg" title="Bumper sensor circuit" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/project2/BumperSensCKT.png" title="Bumper sensor circuit" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -168,7 +168,3 @@ These tests helped me understand that sensor development is not just about build
 This project strengthened my understanding of how sensing, analog circuits, and embedded software come together in robotics. I learned how to design and test signal-conditioning circuits, tune filters, convert analog behavior into digital signals, and integrate sensor outputs into autonomous decision-making logic.
 
 More importantly, I learned that reliable sensing is one of the foundations of autonomous robotics. The robot's software can only make good decisions when the sensor signals are clean, consistent, and meaningful. This project helped me understand the importance of designing sensors not only as circuits, but as part of a complete robotic system.
-
-## Related Work
-
-This sensor development project connects directly to my House of Slug mechatronics robot project, where these sensors were integrated with mechanical design, power distribution, motor control, and hierarchical state-machine software to complete the full autonomous competition task.
