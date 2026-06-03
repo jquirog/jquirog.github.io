@@ -64,6 +64,19 @@ I used an LQR-based control approach to place the closed-loop behavior in a stab
   MATLAB simulations showing pendulum angle stabilization, cart position response, and control effort over time.
 </div>
 
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    <video class="img-fluid rounded z-depth-1" controls>
+      <source src="/assets/img/Project1/inverted_pendulum_simulation.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<div class="caption">
+  MATLAB animation of the inverted pendulum simulation.
+</div>
+
 ## Embedded Implementation
 
 After validating the control strategy in simulation, the next step was to move from MATLAB into embedded implementation. This required translating the controller logic into C and adapting it to run on a physical microcontroller. The experimental system introduced challenges that do not appear in an ideal simulation, such as sensor noise, actuator limits, timing constraints, calibration errors, and differences between the mathematical model and the real hardware.
@@ -74,10 +87,23 @@ This part of the project was especially valuable because it connected theory wit
 
 One of the most important parts of this project was seeing how the system behaved outside the simulation environment. The physical prototype helped me understand the gap between mathematical models and real engineering systems. Small changes in friction, mass distribution, sensor readings, and motor response could significantly affect performance.
 
-Through testing, I gained experience debugging both the control logic and the physical system. I also learned how to compare simulated response plots with experimental behavior, identify possible sources of error, and improve the implementation step by step. This made the project more than a control theory exercise; it became a complete mechatronics project involving modeling, simulation, embedded systems, and hands-on experimentation.
+Through testing, I gained experience debugging both the control logic and the physical system. I also learned how to compare simulated response plots with experimental behavior, identify possible sources of error, and improve the implementation step by step. This made the project more than a control theory exercise; it became a complete mechatronics project involving modeling, simulation, embedded systems, and hands-on experimentation. Below you can see my Lab partner Marlon testing the physical build 
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    <video class="img-fluid rounded z-depth-1" controls>
+      <source src="/assets/img/Project1/ImplementedTesting.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<div class="caption">
+  Experimental testing of the physical inverted pendulum prototype.
+</div>
 
 ## What I Learned
 
 This project strengthened my understanding of how to take a control system from theory to implementation. I learned how to derive equations of motion, linearize nonlinear dynamics, build a state-space model, design a digital controller, simulate closed-loop performance, and implement control logic on embedded hardware. It also gave me practical experience working with an unstable system, where small modeling or implementation errors can quickly affect performance.
 
-More importantly, the project taught me that engineering design is iterative. The mathematical derivation, MATLAB simulation, embedded code, and physical testing all informed each other. Each stage revealed something new about the system and helped improve the final implementation.
+More importantly, the project taught me that engineering design is iterative. The mathematical derivation, MATLAB simulation, embedded code, and physical testing all informed each other. I also learned that the transition from theory to physical implementation introduces many practical challenges, such as tire slipping, sensor limitations, motor inefficiencies, and other real-world effects that require adaptation. Each stage revealed something new about the system and helped improve the final implementation.
