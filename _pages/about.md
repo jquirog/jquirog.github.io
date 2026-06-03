@@ -28,7 +28,7 @@ announcements:
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 3 # leave blank to include all the blog posts.
 ---
 
  I am a Robotics Engineering graduate and M.S. Electrical & Computer Engineering student at Michigan State University, focused on control systems, embedded systems, and autonomous robotics. My work spans LLM-guided multi-agent reinforcement learning, drone systems for search-and-rescue, PCB design, Deep Neural Networks, and real-time embedded communication. I am passionate about building intelligent robotic systems that connect research, engineering, and entrepreneurship to solve real-world problems.
