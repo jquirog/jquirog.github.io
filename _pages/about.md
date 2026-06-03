@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Julio's Engineering Portfolio
+#title: about
 permalink: /
 nav: true
 nav_order: 1
