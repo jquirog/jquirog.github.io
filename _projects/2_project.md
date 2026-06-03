@@ -2,7 +2,7 @@
 layout: page
 title: Sensor Development
 description: Signal conditioning, filtering, and digital sensor interfaces for an autonomous mechatronics robot
-img: assets/img/project2/allsensors.png
+img: assets/img/Project2/allsensors.png
 importance: 2
 category: work
 related_publications: false
@@ -14,10 +14,10 @@ The goal was to transform weak, noisy, or analog physical signals into reliable 
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/project2/BeaconDet.jpg" title="Beacon detector testing" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project2/BeaconDet.jpg" title="Beacon detector testing" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/project2/BeaconDet1ft.png" title="Close-distance beacon testing" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project2/BeaconDet1ft.png" title="Close-distance beacon testing" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -48,7 +48,7 @@ Once the signal was filtered, a peak detector converted the oscillating waveform
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/project2/IMG_0107.PNG" title="Beacon detector schematic" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project2/IMG_0107.PNG" title="Beacon detector schematic" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -66,7 +66,7 @@ This circuit was important because it allowed the robot to transition from gener
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/project2/TrackWireDEt.png" title="Track wire detector circuit" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project2/TrackWireDEt.jpg" title="Track wire detector circuit" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -84,7 +84,7 @@ This sensor was simple compared to the beacon and track wire circuits, but it wa
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/project2/blktapeSensor.jpg" title="Black tape sensor" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project2/blktapeSensor.jpg" title="Black tape sensor" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -102,7 +102,7 @@ The bumper sensors were a good example of how simple hardware can become powerfu
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/project2/BumperSensCKT.png" title="Bumper sensor circuit" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project2/BumperSensCKT.jpg" title="Bumper sensor circuit" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -135,21 +135,21 @@ These tests helped me understand that sensor development is not just about build
 <div class="row justify-content-sm-center">
   <div class="col-sm-4 mt-3 mt-md-0">
     <video class="img-fluid rounded z-depth-1" controls>
-      <source src="/assets/img/project2/CloseDistanceBeacon.mp4" type="video/mp4">
+      <source src="/assets/img/Project2/CloseDistanceBeacon.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
 
   <div class="col-sm-4 mt-3 mt-md-0">
     <video class="img-fluid rounded z-depth-1" controls>
-      <source src="/assets/img/project2/BeaconDetectorFar.mp4" type="video/mp4">
+      <source src="/assets/img/Project2/BeaconDetectorFar.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
 
   <div class="col-sm-4 mt-3 mt-md-0">
     <video class="img-fluid rounded z-depth-1" controls>
-      <source src="/assets/img/project2/SolderingVideo.mp4" type="video/mp4">
+      <source src="/assets/img/Project2/SolderingVideo.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
