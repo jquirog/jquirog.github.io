@@ -2,7 +2,7 @@
 layout: page
 title: House of the Slug
 description: Autonomous scooping robot with hierarchical state machines, system integration, and mechatronic design
-img: assets/img/Mechatronics/FotoParaWeb1.png
+img: assets/img/project7/FotoParaWeb1.png
 importance: 1
 category: work
 related_publications: false
@@ -14,7 +14,7 @@ As the Electrical Lead and Software Sub-lead, I focused on the systems that allo
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/Mechatronics/FotoParaWeb1.png" title="House of Slug robot during testing" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/project7/FotoParaWeb1.png" title="House of Slug robot during testing" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -75,7 +75,7 @@ Many improvements came from observing small failures and making targeted changes
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
     <video class="img-fluid rounded z-depth-1" controls>
-      <source src="/assets/img/Mechatronics/mechVideo.mp4" type="video/mp4">
+      <source src="/assets/img/project7/mechVideo.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
