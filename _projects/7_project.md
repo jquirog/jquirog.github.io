@@ -97,7 +97,4 @@ House of Slug strengthened my understanding of mechatronic system design. I gain
 
 More importantly, the project taught me how important system integration is in robotics. A good mechanical design, a good circuit, or a good software module is not enough by itself. The robot only works when all of those pieces support each other. This project helped me understand how to move from individual subsystems to a complete autonomous machine.
 
-## Related Work
-
-A separate project page will explore the sensor development in more detail, including the beacon detector, track wire detector, filtering, amplification, and signal-conditioning circuits used to support the robot's autonomous behavior.
 
