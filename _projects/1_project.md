@@ -14,10 +14,6 @@ The inverted pendulum is one of the classic problems in control systems because 
   <div class="col-sm-6 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/FreeBodyDiagram.png" title="Free-body diagram" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/Project1/FreeBodyDiagram.png" title="Project pendulum diagram" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
 
 <div class="caption">
   Initial system model and project-specific diagram used to represent the cart-pendulum dynamics.
