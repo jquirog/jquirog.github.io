@@ -1,6 +1,6 @@
 ---
 layout: page
-title: House of Slug
+title: House of the Slug
 description: Autonomous scooping robot with hierarchical state machines, system integration, and mechatronic design
 img: assets/img/Mechatronics/FotoParaWeb1.png
 importance: 1
