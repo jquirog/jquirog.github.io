@@ -14,7 +14,7 @@ The goal was to transform weak, noisy, or analog physical signals into reliable 
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/project2/BeaconDet.png" title="Beacon detector testing" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/project2/BeaconDet.jpg" title="Beacon detector testing" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/project2/BeaconDet1ft.png" title="Close-distance beacon testing" class="img-fluid rounded z-depth-1" %}
@@ -84,7 +84,7 @@ This sensor was simple compared to the beacon and track wire circuits, but it wa
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/project2/blktapeSensor.png" title="Black tape sensor" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/project2/blktapeSensor.jpg" title="Black tape sensor" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
