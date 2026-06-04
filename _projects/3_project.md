@@ -2,7 +2,7 @@
 layout: page
 title: UART Protocol Communication
 description: Interrupt-driven UART device driver, circular buffers, and packet-based serial communication on a PIC32
-img: assets/img/Project8/diagram.png
+img: assets/img/Project3/diagram.png
 importance: 8
 category: work
 related_publications: false
@@ -14,7 +14,7 @@ The final system allowed the computer-side Python interface to communicate with 
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/Project8/diagram.png" title="UART protocol stream flow diagram" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project3/diagram.png" title="UART protocol stream flow diagram" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -50,7 +50,7 @@ The buffer design used a head pointer, a tail pointer, and status flags to deter
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/Project8/Buffer.png" title="Circular buffer diagram" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project3/Buffer.png" title="Circular buffer diagram" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -74,7 +74,7 @@ This design made the parser easier to reason about and debug. If a malformed pac
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/Project8/StateMachine.png" title="Packet parsing state machine" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project3/StateMachine.png" title="Packet parsing state machine" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -84,7 +84,7 @@ This design made the parser easier to reason about and debug. If a malformed pac
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/Project8/StateC.png" title="BuildRxPacket state machine implementation" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project3/StateC.png" title="BuildRxPacket state machine implementation" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
