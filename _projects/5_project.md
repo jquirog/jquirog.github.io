@@ -1,80 +1,42 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Convergence of IoT and Industrial Automation Research Paper
+description: Technical literature review on IIoT, PLC networks, industrial protocols, and unified communication frameworks
+img: assets/img/Project5/FigureIV.png
 importance: 3
-category: fun
+category: work
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This page presents a brief overview of my research paper, **Convergence of IoT and Industrial Automation Protocols: Toward Unified Communication Frameworks**, completed for ECE 842: Performance Modeling of Communication Networks at Michigan State University.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The paper studies how industrial systems are evolving as the Industrial Internet of Things is integrated with existing automation technologies. Modern factories, warehouses, and vehicles increasingly combine PLC networks, industrial Ethernet, wireless sensor networks, cloud-based services, and low-latency communication protocols. Because each technology has different assumptions about latency, reliability, scalability, and integration with higher-level control, building unified communication frameworks remains an important engineering challenge.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project5/FigureIV.png" title="Web-server-based centralized HMI architecture" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  Web-server-based centralized HMI architecture for IoT-ready PLC systems, used in the paper as an example of industrial automation moving toward networked and unified communication.
+</div>
+
+## Research Paper Overview
+
+In this paper, I reviewed five recent works that study the convergence of industrial automation and IoT from different perspectives: PLC-based automation in warehousing, centralized HMI for heterogeneous PLCs, embedded sensor networks in industrial settings, IoT and cloud-based extensions to automation systems, and low-latency communication schemes for time-sensitive industrial applications.
+
+The goal was not only to summarize each paper, but also to identify recurring technical problems and solution patterns. Across the reviewed works, several themes appear repeatedly: legacy PLC integration, real-time communication requirements, web-server or gateway-based architectures, cloud connectivity, sensor-network scalability, and the need for reliable low-latency protocols such as TSN, EtherCAT, PROFINET IRT, and related industrial Ethernet technologies.
+
+The paper concludes that future unified industrial communication frameworks will likely combine legacy PLC and fieldbus networks, deterministic Ethernet on the factory floor, IoT gateways, and application-layer standards that move data toward cloud platforms while still preserving the timing, reliability, and safety requirements of industrial systems.
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <p>
+      Access the full research paper here:
+      <a class="btn btn-sm btn-outline-primary" href="/assets/pdf/UnofficialPublication2/ConvergenceofIoTandIndustrialAutomation.pdf" target="_blank">
+        📄 View Paper
+      </a>
+    </p>
+  </div>
+</div>

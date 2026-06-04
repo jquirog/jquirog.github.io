@@ -3,7 +3,7 @@ layout: page
 title: Temperature Sensor PCB
 description: Custom LM35 temperature sensing circuit, PCB design in Cadence Allegro, and FSM-based thermal protection
 img: assets/img/Project4/Top.png
-importance: 4
+importance: 3
 category: work
 related_publications: false
 ---
