@@ -8,7 +8,7 @@ category: work
 related_publications: false
 ---
 
-This project presents **Bug Fest**, a Verilog-based video game implemented using a VGA monitor and a Basys 3 FPGA board. The game was developed for CSE 100 and focused on digital logic design, VGA synchronization, pixel-based graphics, collision detection, randomized object generation, button-controlled motion, and seven-segment score display.
+This project presents **Bug Fest**, a Verilog-based video game implemented using a VGA monitor and a Basys 3 FPGA board. The game was developed in Vivado and focused on digital logic design, VGA synchronization, pixel-based graphics, collision detection, randomized object generation, button-controlled motion, and seven-segment score display.
 
 In the game, a slug character navigates between moving platforms of randomized sizes while trying to consume randomly appearing flies. The player must avoid falling into the pond below or colliding with the side of a platform. Every fly consumed adds a point to the score, which is displayed on the Basys 3 board.
 

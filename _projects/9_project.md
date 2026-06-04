@@ -3,12 +3,12 @@ layout: page
 title: FPGA Timer Game
 description: Verilog-based Basys 3 FPGA timing game using counters, state machines, seven-segment display control, and button input logic
 img: assets/img/Project9/DiligentGame.png
-importance: 9
+importance: 4
 category: work
 related_publications: false
 ---
 
-This project presents a Verilog-based timing game implemented on a Digilent Basys 3 FPGA board. The design was developed in Vivado for CSE 100 and focused on digital logic design, finite state machines, counters, button input handling, arithmetic modules, and seven-segment display control.
+This project presents a Verilog-based timing game implemented on a Digilent Basys 3 FPGA board. The design was developed in Vivado and focused on digital logic design, finite state machines, counters, button input handling, arithmetic modules, and seven-segment display control.
 
 The goal of the game was to create an interactive hardware system where the player uses the Basys 3 buttons and switches to control the game behavior while the FPGA updates the display in real time. Unlike a software game running on a processor, this project was built from digital hardware modules written in Verilog.
 
