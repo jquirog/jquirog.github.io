@@ -3,7 +3,7 @@ layout: page
 title: Robust H∞ Pitch Control Applied to a Fixed-Wing Unmanned Aerial Vehicle
 description: Robust H-infinity mixed-sensitivity control, uncertainty modeling, and MATLAB simulation for UAV pitch dynamics
 img: assets/img/Project6/figure1.png
-importance: 6
+importance: 3
 category: work
 related_publications: false
 ---
