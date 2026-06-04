@@ -11,10 +11,11 @@ profile:
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>B.S. Robotics Engineering </p>
-    <p>UC Santa Cruz</p>
     <p>M.S. Electrical & Computer Engineering </p>
     <p>Michigan State University</p>
+    <p>B.S. Robotics Engineering </p>
+    <p>UC Santa Cruz</p>
+    
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
