@@ -3,7 +3,7 @@ layout: page
 title: UART Protocol Communication
 description: Interrupt-driven UART device driver, circular buffers, and packet-based serial communication on a PIC32
 img: assets/img/Project3/diagram.png
-importance: 8
+importance: 3
 category: work
 related_publications: false
 ---
