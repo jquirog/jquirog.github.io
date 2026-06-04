@@ -1,81 +1,111 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+title: Bug Fest VGA Game
+description: Verilog-based VGA game implemented on a Basys 3 FPGA with pixel-addressing, collision logic, randomized objects, and seven-segment score display
+img: assets/img/Project8/CSE100FP.png
 importance: 4
 category: work
-giscus_comments: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project presents **Bug Fest**, a Verilog-based video game implemented using a VGA monitor and a Basys 3 FPGA board. The game was developed for CSE 100 and focused on digital logic design, VGA synchronization, pixel-based graphics, collision detection, randomized object generation, button-controlled motion, and seven-segment score display.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In the game, a slug character navigates between moving platforms of randomized sizes while trying to consume randomly appearing flies. The player must avoid falling into the pond below or colliding with the side of a platform. Every fly consumed adds a point to the score, which is displayed on the Basys 3 board.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/Project8/CSE100FP.png" title="Bug Fest VGA game running on monitor" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  Bug Fest running on a VGA monitor. The player controls the slug while platforms and flies move across the screen.
+</div>
+
+## Project Overview
+
+The goal of this lab was to implement the game **Bug Fest** using a VGA monitor and the Verilog programming language. The game begins with the slug positioned on top of a platform. When button C is pressed, the platforms begin moving from right to left. To maneuver the slug, the player presses button U. If the slug is not on a platform and button U is not pressed, gravity pulls the slug downward until it either lands on a platform or falls into the pond.
+
+The game ends if the slug falls into the pond or collides with the side of a platform. The player earns one point for each fly the slug consumes, and the score is shown on the seven-segment display of the Basys 3 board.
+
+## Top-Level Design
+
+The top-level design combined several modules into one complete FPGA system. The design included clock generation, VGA synchronization, pixel-address generation, object rendering, score counting, button input handling, edge detection, ring counter logic, selector logic, and hexadecimal seven-segment display output.
+
+The `LabVGA_clks` module generated the clock cycles needed to synchronize the rest of the design and linked button R to the reset function. When button R was pressed, the game returned to its initial state. The top-level module also routed the red, green, and blue values generated by the VGA game logic to the monitor so the correct pixels appeared on screen.
+
+Several modules from previous labs were reused, including the edge detector, counter, ring counter, selector, and seven-segment decoder. These modules were integrated with the new VGA modules to create a full game system.
+
+## Pixel Address and VGA Synchronization
+
+The `PixelAddress` module generated the horizontal and vertical pixel addresses required by the VGA monitor. The horizontal counter counted up to 799 pixels before resetting, and the vertical counter incremented after each completed horizontal line. The vertical counter reset after reaching the full VGA timing range.
+
+Although the active visible region of the monitor is 640 by 480 pixels, the full VGA timing includes additional synchronization regions. The module generated the `Hsync` and `Vsync` signals at the proper times so that the monitor could display the game correctly.
+
+This part of the project helped me understand that VGA output is not only about choosing colors for pixels. The hardware also has to continuously generate correct timing, synchronization pulses, and pixel coordinates.
+
+## VGA Module and Object Rendering
+
+The game graphics were generated in the `StillObjects` VGA module. Originally, separate modules were planned for stationary and moving objects, but it became simpler and more efficient to consolidate the graphical logic into one module.
+
+The first step was creating the fixed objects on the screen. The blue border was drawn around the edge of the active display region, while the pond was drawn near the bottom of the screen using a combination of blue and green. These objects remained visible throughout the game.
+
+The moving platforms were created using counters and a Linear Feedback Shift Register. The platforms moved from right to left, and the LFSR generated randomized platform lengths so the game did not repeat the exact same pattern every cycle.
+
+The flies were also generated using randomized positions. Each fly was drawn as an 8 by 8 pixel block and appeared in one of two vertical ranges. A multiplexer selected whether the fly appeared in the upper or lower range, creating variation in gameplay.
+
+The slug was drawn as a 16 by 16 pixel object. Its vertical motion depended on button input and gravity. When the player pressed button U, the slug moved upward. When the button was released, gravity pulled the slug downward.
+
+## Collision Logic
+
+Collision detection was one of the most important parts of the project. The game needed to know when the slug touched the pond, the top border, a platform, a fly, or the side of a platform.
+
+The slug could not move above the top border, and if it reached the pond, the game ended. Platform collisions were handled so that the slug could land on top of a platform instead of continuing to fall. The logic also prevented the slug from passing through a platform from below.
+
+Fly collision was used for scoring. When the slug overlapped a fly, the game triggered a signal that added one point to the score. An edge detector ensured that only one point was added per fly collision instead of continuously increasing the score while the slug and fly overlapped.
+
+A separate side-collision condition was added for platform edges. If the slug hit the side of a platform, the game entered an end condition and stopped normal platform and slug movement.
+
+## Randomized Gameplay
+
+Randomness was generated using a Linear Feedback Shift Register. The LFSR created pseudo-random values used to vary platform lengths and fly locations. This made the gameplay less predictable and gave the project more of a real game feel.
+
+The randomized behavior was especially important because the game depended on timing and movement. Without changing platform lengths and fly locations, the game would become repetitive and easier to memorize.
+
+## Score Display
+
+The score was displayed on the Basys 3 board using a counter, ring counter, selector, and seven-segment display decoder. When the slug consumed a fly, the edge detector produced a clean pulse that incremented the score counter.
+
+The ring counter selected which digit of the display was active, and the selector passed the correct four-bit value to the seven-segment decoder. The `Hex7` module then converted that value into the segment outputs needed to display hexadecimal digits.
+
+This part of the project connected the game logic on the VGA monitor to physical output on the FPGA board.
+
+## Demonstration
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    <video class="img-fluid rounded z-depth-1" controls>
+      <source src="/assets/img/Project8/CSE100FinalProject.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<div class="caption">
+  Demonstration video of Bug Fest running on the VGA display.
+</div>
+
+## What I Learned
+
+This project strengthened my understanding of digital logic design and FPGA-based graphics. I learned how to generate VGA timing, map pixel coordinates to objects, create moving elements using counters, use pseudo-random logic for gameplay variation, and implement collision detection directly in hardware.
+
+The project also showed me how difficult it can be to coordinate many independent hardware modules. Each new objective introduced additional timing and logic constraints, and every object on the screen had to be managed through pixel conditions and synchronous counters.
+
+In retrospect, using a more explicit state machine could have simplified the management of in-game events. However, the final result matched expectations and successfully produced a playable FPGA-based VGA game.
+
+## Conclusion
+
+Bug Fest was a complete FPGA game design project involving VGA output, Verilog modules, randomized object generation, physical button input, collision handling, score counting, and seven-segment display output. The project demonstrated how digital systems can be used not only for computation, but also for interactive visual applications.
+
+By building the game from low-level logic, I gained practical experience connecting hardware timing, visual rendering, user input, and game rules into one working embedded digital system.
+
