@@ -33,17 +33,8 @@ cv:
           - Member of the USCS Formula SAE Tractive System team
           - GPA 3.83/4.0 (Cum Laude)
 
+    
     Experience:
-      - company: MSU College of Engineering
-        position: Science & Engineering Entrepeneurship TA
-        location: East Lansing, MI
-        start_date: Aug 26
-        end_date: Present
-        highlights:
-          - Selected as a teaching assistant after strong performance in the course the previous year. 
-          - Supported students in turning engineering innovations into viable business opportunities through market analysis and pitch development.  
-          - Guided students through the mathematics of finance and business, including TVM, income statements, investments, and cost structure.   
-
       - company: Cyber-Physical System Lab
         position: Graduate Researcher
         location: East Lansing, MI
@@ -53,6 +44,16 @@ cv:
           - Guided Multi Agent Reinforcement Learning to improve collaboration, control efficiency, to achieve high level goals. 
           - Designing and analyzing optimal & nonlinear control policies (LQR/LQG, MPC, Lyapunov-based) to ensure stability, safety, and performance. 
           - Building Python DNN pipelines that turn LLM outputs into verifiable controllers, with on-robot execution and closed-loop telemetry
+          
+      - company: MSU College of Engineering
+        position: Science & Engineering Entrepeneurship TA
+        location: East Lansing, MI
+        start_date: Aug 26
+        end_date: Present
+        highlights:
+          - Selected as a teaching assistant after strong performance in the course the previous year. 
+          - Supported students in turning engineering innovations into viable business opportunities through market analysis and pitch development.  
+          - Guided students through the mathematics of finance and business, including TVM, income statements, investments, and cost structure.   
               
       - company: Real Robotics
         position: Founder
