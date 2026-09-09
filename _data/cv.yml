@@ -34,6 +34,26 @@ cv:
           - GPA 3.83/4.0 (Cum Laude)
 
     Experience:
+      - company: MSU College of Engineering
+        position: Science & Engineering Entrepeneurship TA
+        location: East Lansing, MI
+        start_date: Aug 26
+        end_date: Present
+        highlights:
+          - Selected as a teaching assistant after strong performance in the course the previous year. 
+          - Supported students in turning engineering innovations into viable business opportunities through market analysis and pitch development.  
+          - Guided students through the mathematics in finance and business, including TVM, income statements, investments, and cost structure.   
+
+      - company: Cyber-Physical System Lab
+        position: Graduate Researcher
+        location: East Lansing, MI
+        start_date: Sep 25
+        end_date: Present
+        highlights:
+          - Guided Multi Agent Reinforcement Learning to improve collaboration, control efficiency, to achieve high level goals. 
+          - Designing and analyzing optimal & nonlinear control policies (LQR/LQG, MPC, Lyapunov-based) to ensure stability, safety, and performance. 
+          - Building Python DNN pipelines that turn LLM outputs into verifiable controllers, with on-robot execution and closed-loop telemetry
+              
       - company: Real Robotics
         position: Founder
         location: East Lansing, MI
@@ -47,16 +67,6 @@ cv:
         - Designed and simulated autonomous drone systems for search-and-rescue missions in support of first responders 
         - Performed market and feasibility analyses to evaluate business viability and develop investor-facing reports and pitch materials 
         - Won elevator pitch competitions, and secured funding to advance startup development  
-
-      - company: Cyber Physical System Lab
-        position: Graduate Researcher
-        location: East Lansing, MI
-        start_date: Sep 25
-        end_date: Present
-        highlights:
-          - Guided Multi Agent Reinforcement Learning to improve collaboration, control efficiency, to achieve high level goals. 
-          - Designing and analyzing optimal & nonlinear control policies (LQR/LQG, MPC, Lyapunov-based) to ensure stability, safety, and performance. 
-          - Building Python DNN pipelines that turn LLM outputs into verifiable controllers, with on-robot execution and closed-loop telemetry
 
       - company: Ikergune
         position: R&D Engineer
